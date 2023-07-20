@@ -8,6 +8,7 @@ a=int(input("¿Y tu antiguedad?"))
 print("entendido procesando los datos...")
 time.sleep (0.7)
 print ("su nombre es:", n)
+time.sleep (0.7)
 if c==1:
     print("Departamento Atención al cliente")
 elif c==2:
@@ -46,4 +47,7 @@ elif c==3:
         print (clave1, "33 días de vacaciones")   
      else:
         print ("Disculpa, ha habido un error intentelo de nuevo")
+if a<1:
+    print ("Disculpa, parece ser que su antiguedad genera algún error, por favor, vuelva a introducir los datos")
+time.sleep (0.7)
 print ("Gracias por utilizar este programa, no dude en contactarnos si hay algún problema")
